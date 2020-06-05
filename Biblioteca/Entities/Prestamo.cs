@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-	class Prestamo
+	public class Prestamo
 	{
 		private int codigo;
 		private String fecha;

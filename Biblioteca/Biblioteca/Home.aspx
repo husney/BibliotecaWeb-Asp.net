@@ -25,7 +25,7 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="Login.aspx" class="btn btn-primary mt-1">Iniciar Sesion</a>
+                        <a href="Login.aspx" class="btn btn-primary mt-1 mr-1">Iniciar Sesion</a>
                     </li>
 					<li class="nav-item">
                         <a href="Register.aspx" class="btn btn-primary mt-1">Registrar</a>

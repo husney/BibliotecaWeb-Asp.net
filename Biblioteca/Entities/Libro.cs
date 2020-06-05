@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-	class Libro
+	public class Libro
 	{
 		private String codigo;
 		private String nombre;

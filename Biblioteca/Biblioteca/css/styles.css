@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(68, 65, 65);
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.img1 {
+    height: 450px;
+}
+
+.descripcion {
+    background: rgb(80, 79, 79)
+}
+
+.centrado {
+    text-align: center;
+}
+
+.form {
+    width: 300px;
+    height: 500px;
+}
+
+.mt {
+    margin-top: 300px;
+}
+
+.cont {
+    background: rgb(39, 54, 59);
+    border-radius: 15px;
+}
+
+.form-group {
+    padding: 15px;
+}
+
+.i {
+    width: 300px;
+}

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities
 {
-	class Usuario
+	public class Usuario
 	{
 		private String documento;
 		private String nombre;

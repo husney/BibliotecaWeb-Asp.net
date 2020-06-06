@@ -12,6 +12,7 @@
    
 </head>
 <body>
+
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
             <a href="#" class="navbar-brand">Biblioteca</a>
@@ -32,13 +33,61 @@
         </div>
     </nav>
 
+		<div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-auto">
+                <div class="card card-fuid">
+                    <div class="card-img">
+                        <img src="img/slideBiblioteca.jpg"  class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <form id="form1" runat="server">
         <div>
+
+
+			<div class="container">
+						<div class="row mt-3 d-flex flex-row justify-content-center  ">
+							<div class="col-12 col-lg-8 ">
+								<div class="indiceMenus d-flex flex-sm-row justify-content-sm-between flex-wrap justify-content-start ">
+									
+										<asp:Button ID="btnAreas"  CssClass="btn btn-info mt-1 mr-1" runat="server" Text="Areas" />
+										<asp:Button ID="btnLibros"  CssClass="btn btn-info mt-1 mr-1" runat="server" Text="Libros" />
+										<asp:Button ID="btnPrestamos"  CssClass="btn btn-info mt-1 mr-1" runat="server" Text="Préstamos" />
+										<asp:Button ID="btnSanciones"  CssClass="btn btn-info mt-1 mr-1" runat="server" Text="Sanciones" />
+										<asp:Button ID="btnUsuarios"  CssClass="btn btn-info mt-1 mr-1" runat="server" Text="Usuarios" />
+									
+								</div>
+							</div>
+						</div>
+					</div>
+
+		
+			<div class="container">
+				<div class="row mt-3">
+					<div class="col">
+						<div class="card">
+        			<asp:MultiView ID="MultiView1" runat="server" ActiveViewIndex="0">
+						<asp:View ID="View1" runat="server">
+
+					
+						</asp:View>
+					</asp:MultiView>
+							</div>
+					</div>
+				</div>
+			</div>
+		
+
         </div>
-    </form>
 
 	 <script src="js/jquery-3.5.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-</body>
+    </form>
+
+	 </body>
 </html>

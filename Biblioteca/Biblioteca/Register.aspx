@@ -36,7 +36,7 @@
 
 
     <div class="container h-100 d-flex justify-content-center ">
-     <form action="" method="POST" class="form d-flex flex-wrap align-content-end text-center" runat="server">
+     <form  method="POST" class="form d-flex flex-wrap align-content-end text-center" runat="server">
        <div class="cont d-flex flex-wrap align-content-between justify-content-center">
         <div class="form-group ">
             <label for="regUser" class="form-label h1 text-white">Usuario</label>
@@ -52,9 +52,11 @@
         </div>
 
         <div class="form-check text-white d-flex justify-content-center flex-wrap ml-2">
-            <div class="d-block d-flex flex-row justify-content-between">
-				<label for="terminos" class="ch1">Acepto Terminos y Condiciones</label>
-				<asp:CheckBox ID="terminos" CssClass="form-check-input ml-3" runat="server" />
+            <div class="d-block d-flex row-reverse justify-content-start">
+				<label for="terminos" class="ch1 ml-1 mr-1">Acepto Terminos y Condiciones</label>
+				
+				<asp:CheckBox  ID="terminos" CssClass="" runat="server" Visible="True" />
+
             </div>
 				<div class="d-block d-flex justify-content-center">
 				<asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" CssClass="text-info mb-1" ErrorMessage="Acepte Terminos" ControlToValidate="regPass"></asp:RequiredFieldValidator>

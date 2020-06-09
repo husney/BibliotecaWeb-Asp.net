@@ -6,8 +6,8 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/styles.css" />
   
 	<title>Registro</title>
 	</asp:Literal>
@@ -35,7 +35,7 @@
     </nav>
 
 
-    <div class="container h-100 d-flex justify-content-center ">
+    <div class="container h-100 d-flex justify-content-center "/>
      <form  method="POST" class="form d-flex flex-wrap align-content-end text-center" runat="server">
        <div class="cont d-flex flex-wrap align-content-between justify-content-center">
         <div class="form-group ">
@@ -74,8 +74,8 @@
 		
 		
 		
-	<script src="js/jquery-3.5.1.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+	<script src="../js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>

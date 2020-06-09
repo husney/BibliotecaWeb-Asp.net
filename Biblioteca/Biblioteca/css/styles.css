@@ -36,7 +36,6 @@ body{
     background: rgb(39, 54, 59);
     border-radius: 15px;
     
-    
 }
 
 .form-group{
@@ -45,4 +44,8 @@ body{
 
 .i{
     width: 300px;
+}
+
+.formUser input{
+    width: 100%
 }

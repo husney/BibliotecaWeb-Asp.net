@@ -7,11 +7,21 @@ using System.Web.UI.WebControls;
 
 namespace Biblioteca
 {
-	public partial class Biblioteca : System.Web.UI.Page
+	public partial class Users : System.Web.UI.Page
 	{
 		protected void Page_Load(object sender, EventArgs e)
 		{
 
 		}
+		
+
+		public void agregarUser(object sender, EventArgs e)
+		{
+			if (IsValid)
+			{
+				this.mensajeAddUser.Text = "Registrado";
+			}
+		}
+
 	}
 }

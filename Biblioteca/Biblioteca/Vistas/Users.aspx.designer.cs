@@ -10,78 +10,105 @@
 namespace Biblioteca {
     
     
-    public partial class Biblioteca {
+    public partial class Users {
         
         /// <summary>
-        /// Control form1.
+        /// Control formAddUser.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm formAddUser;
         
         /// <summary>
-        /// Control btnAreas.
+        /// Control userAgregar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAreas;
+        protected global::System.Web.UI.WebControls.Button userAgregar;
         
         /// <summary>
-        /// Control btnLibros.
+        /// Control userListar.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLibros;
+        protected global::System.Web.UI.WebControls.Button userListar;
         
         /// <summary>
-        /// Control btnPrestamos.
+        /// Control addUserDocumento.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPrestamos;
+        protected global::System.Web.UI.WebControls.TextBox addUserDocumento;
         
         /// <summary>
-        /// Control btnSanciones.
+        /// Control addUserNombre.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSanciones;
+        protected global::System.Web.UI.WebControls.TextBox addUserNombre;
         
         /// <summary>
-        /// Control btnUsuarios.
+        /// Control addUserDireccion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnUsuarios;
+        protected global::System.Web.UI.WebControls.TextBox addUserDireccion;
         
         /// <summary>
-        /// Control MultiView1.
+        /// Control addUserTelefono.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.MultiView MultiView1;
+        protected global::System.Web.UI.WebControls.TextBox addUserTelefono;
         
         /// <summary>
-        /// Control View1.
+        /// Control addUserCorreo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.View View1;
+        protected global::System.Web.UI.WebControls.TextBox addUserCorreo;
+        
+        /// <summary>
+        /// Control mensajeAddUser.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label mensajeAddUser;
+        
+        /// <summary>
+        /// Control validadorAddUser.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ValidationSummary validadorAddUser;
+        
+        /// <summary>
+        /// Control btnAddUser.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnAddUser;
     }
 }

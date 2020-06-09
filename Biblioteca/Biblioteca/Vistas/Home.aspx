@@ -6,8 +6,8 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<link rel="stylesheet" href="css/bootstrap.min.css"/>
-	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="../css/styles.css" />
 	
     <title>Biblioteca</title>
 </head>
@@ -48,13 +48,13 @@
                     <div class="carousel-inner">
                       
                       <div class="carousel-item active">
-                        <img src="img/sd2.jpg" class="d-block w-100 img" alt=""/>
+                        <img src="../img/sd2.jpg" class="d-block w-100 img" alt=""/>
                       </div>
                       <div class="carousel-item">
-                        <img src="img/sd3.jpg" class="d-block w-100 img" alt=""/>
+                        <img src="../img/sd3.jpg" class="d-block w-100 img" alt=""/>
                      </div>
                       <div class="carousel-item">
-                        <img src="img/sd4.jpg" class="d-block w-100 img" alt=""/>
+                        <img src="../img/sd4.jpg" class="d-block w-100 img" alt=""/>
                         </div>
                       </div>
                     <a class="carousel-control-prev" href="#slide" role="button" data-slide="prev">
@@ -87,8 +87,8 @@
         </div>
     </div>
 
-	  <script src="js/jquery-3.5.1.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+	  <script src="../js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>

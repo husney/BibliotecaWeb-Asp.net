@@ -28,6 +28,16 @@ namespace Entities
 			this.estado = estado;
 		}
 
+		public Usuario(String documento, String nombre, String direccion, String telefono, String correo)
+		{
+			this.documento = documento;
+			this.nombre = nombre;
+			this.direccion = direccion;
+			this.telefono = telefono;
+			this.correo = correo;
+			
+		}
+
 		public Usuario(String documento, String nombre, String direccion, String telefono, String correo, String estado, int id)
 		{
 			this.documento = documento;

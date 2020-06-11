@@ -13,7 +13,7 @@ namespace Bussiness
 
 		public BussinesLoginReg()
 		{
-			con = DataAccess.DB.getInstance();
+			con = new DataAccess.DB();
 
 		}
 

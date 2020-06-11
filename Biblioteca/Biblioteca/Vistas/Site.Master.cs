@@ -32,7 +32,7 @@ namespace Biblioteca
 		
 		public void usuarios(object sender, EventArgs e)
 		{
-			Response.Redirect("Users.aspx");
+			Response.Redirect("UserLista.aspx");
 		}
 	}
 }

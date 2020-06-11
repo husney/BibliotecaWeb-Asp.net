@@ -54,13 +54,12 @@
 							<div class="col-12 col-lg-8 ">
 								<div class="indiceMenus d-flex flex-sm-row justify-content-sm-between flex-wrap justify-content-start ">
 									
-										<a href="Users.aspx"> Usuarios</a>
-										<%--<asp:Button ID="btnAreas" OnClick="usuarios" CssClass="btn btn-info mt-1 mr-1" runat="server" Text="Areas" />
-										<asp:Button ID="btnLibros"  CssClass="btn btn-info mt-1 mr-1" runat="server" Text="Libros"/>
-										<asp:Button ID="btnPrestamos"  CssClass="btn btn-info mt-1 mr-1" runat="server" Text="Préstamos"/>
-										<asp:Button ID="btnSanciones"  CssClass="btn btn-info mt-1 mr-1" runat="server" Text="Sanciones"/>
-										<asp:Button ID="btnUsuarios"  CssClass="btn btn-info mt-1 mr-1" runat="server" Text="Usuarios" />--%>
-									
+									<a href="UserLista.aspx" class="btn btn-info"> Usuarios</a>
+									<a href="#" class="btn btn-info">Libros</a>
+									<a href="#" class="btn btn-info">Areas</a>
+									<a href="#" class="btn btn-info">Préstamos</a>
+									<a href="#" class="btn btn-info">Sanciones</a>
+
 								</div>
 							</div>
 						</div>

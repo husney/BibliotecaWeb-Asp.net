@@ -44,7 +44,7 @@
 												<td> <% = us.Id %> </td>
 												<td class="d-flex justify-content-center flex-wrap">
 													<a href="UserActualizar.aspx?documento=<% = us.Documento %>" class="btn btn-info mb-1 mr-1">Actualizar</a>
-													<a href="javascript:void(0)" onclick="eliminar('UserEliminar.aspx?documento=<% = us.Documento %>')" class="btn btn-warning mb-1">Eliminar</a>
+													<a href="javascript:void(0)" onclick="eliminar('UserEliminar.aspx?documento=<% = us.Documento %>')" class="btn btn-danger mb-1">Eliminar</a>
 												</td>
 											</tr>
 									<%

@@ -11,7 +11,7 @@ namespace Biblioteca.Vistas
 	public partial class UserLista : System.Web.UI.Page
 	{
 		private Bussiness.ControlUsuarios users;
-		public SqlDataReader read;
+		
 		public List<Entities.Usuario> usuarios = new List<Entities.Usuario>();
 		
 
@@ -29,16 +29,9 @@ namespace Biblioteca.Vistas
 
 		}
 
-		public SqlDataReader listar()
-		{
-			return this.read;
-		}
 
-		//public List<Entities.Usuario> getLista()
-		//{
-		//	return this.usuarios;
-		//}
 
+		
 
 
 

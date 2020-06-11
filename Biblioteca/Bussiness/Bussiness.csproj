@@ -42,6 +42,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BussinesLoginReg.cs" />
+    <Compile Include="ControlAreas.cs" />
+    <Compile Include="ControlLibros.cs" />
     <Compile Include="ControlUsuarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

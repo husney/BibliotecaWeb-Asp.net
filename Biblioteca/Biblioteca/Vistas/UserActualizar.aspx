@@ -7,7 +7,7 @@
 		<div class="row my-3">
 			<div class="col-12 col-lg-11 mx-auto">
 				<div class="card">
-					<div class="card-header  bg-dark text-white text-center h1"></div>
+					<div class="card-header bg-dark text-white text-center h1"></div>
 					<div class="card-body bg-dark">
 						<form runat="server" method="post" class="text-white" id="actualizar">
 							
@@ -19,6 +19,7 @@
 									
 								<div class="form-group d-flex justify-content-center">
 									<asp:Label runat="server" ID="mensajeAddUser" Text="" CssClass="text-center d-block" Visible="false" ></asp:Label>
+									<asp:ValidationSummary runat="server" ID="validadorAddUser" DisplayMode="BulletList"  CssClass="alert alert-danger"/>
 								</div>
 									
 														
@@ -58,7 +59,7 @@
 								<div class="form-group">
 									<label for="editEstados" class="col-form-label">Estados:</label>
 									<asp:DropDownList runat="server" ID="editEstados" CssClass="form-control">
-										<asp:ListItem Value="0">Seleccione...</asp:ListItem>
+										<asp:ListItem  Value="0">Seleccione...</asp:ListItem>
 										<asp:ListItem Value="Libre">Libre</asp:ListItem>
 										<asp:ListItem Value="pazysalvo">Paz y salvo</asp:ListItem>
 										<asp:ListItem Value="deudor">Deudor</asp:ListItem>
@@ -70,7 +71,7 @@
 
 								<div class="form-group">
 											
-											<asp:ValidationSummary runat="server" ID="validadorAddUser" DisplayMode="BulletList"  CssClass="alert alert-danger"/>
+											
 								</div>
 
 								<div class="card-footer d-flex justify-content-center text-white">

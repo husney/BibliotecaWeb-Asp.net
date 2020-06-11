@@ -107,6 +107,10 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="js\funciones.js" />
+    <Content Include="Vistas\Areas.aspx" />
+    <Content Include="Vistas\AreasActualizar.aspx" />
+    <Content Include="Vistas\AreasEliminar.aspx" />
+    <Content Include="Vistas\AreasLista.aspx" />
     <Content Include="Vistas\Biblioteca.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
@@ -163,6 +167,7 @@
     <Content Include="js\jquery-3.5.1.slim.min.js" />
     <Content Include="js\popper.min.js" />
     <Content Include="js\script.js" />
+    <Content Include="Vistas\Libros.aspx" />
     <Content Include="Vistas\Login.aspx" />
     <Content Include="Vistas\Register.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -213,6 +218,34 @@
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Vistas\Areas.aspx.cs">
+      <DependentUpon>Areas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Areas.aspx.designer.cs">
+      <DependentUpon>Areas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\AreasActualizar.aspx.cs">
+      <DependentUpon>AreasActualizar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\AreasActualizar.aspx.designer.cs">
+      <DependentUpon>AreasActualizar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\AreasEliminar.aspx.cs">
+      <DependentUpon>AreasEliminar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\AreasEliminar.aspx.designer.cs">
+      <DependentUpon>AreasEliminar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\AreasLista.aspx.cs">
+      <DependentUpon>AreasLista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\AreasLista.aspx.designer.cs">
+      <DependentUpon>AreasLista.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\Biblioteca.aspx.cs">
       <DependentUpon>Biblioteca.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -243,6 +276,13 @@
     </Compile>
     <Compile Include="Vistas\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Libros.aspx.cs">
+      <DependentUpon>Libros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Libros.aspx.designer.cs">
+      <DependentUpon>Libros.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vistas\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

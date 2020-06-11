@@ -10,96 +10,87 @@
 namespace Biblioteca.Vistas {
     
     
-    public partial class UserActualizar {
+    public partial class Libros {
         
         /// <summary>
-        /// Control actualizar.
+        /// Control addLibros.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm actualizar;
+        protected global::System.Web.UI.HtmlControls.HtmlForm addLibros;
         
         /// <summary>
-        /// Control mensajeAddUser.
+        /// Control msgAddLibro.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label mensajeAddUser;
+        protected global::System.Web.UI.WebControls.Label msgAddLibro;
         
         /// <summary>
-        /// Control validadorAddUser.
+        /// Control librosSummary.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ValidationSummary validadorAddUser;
+        protected global::System.Web.UI.WebControls.ValidationSummary librosSummary;
         
         /// <summary>
-        /// Control editDocumento.
+        /// Control addCodigo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox editDocumento;
+        protected global::System.Web.UI.WebControls.TextBox addCodigo;
         
         /// <summary>
-        /// Control editNombre.
+        /// Control addNombre.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox editNombre;
+        protected global::System.Web.UI.WebControls.TextBox addNombre;
         
         /// <summary>
-        /// Control editDireccion.
+        /// Control addNumPag.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox editDireccion;
+        protected global::System.Web.UI.WebControls.TextBox addNumPag;
         
         /// <summary>
-        /// Control editTelefono.
+        /// Control addAutor.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox editTelefono;
+        protected global::System.Web.UI.WebControls.TextBox addAutor;
         
         /// <summary>
-        /// Control editCorreo.
+        /// Control addEditorial.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox editCorreo;
+        protected global::System.Web.UI.WebControls.TextBox addEditorial;
         
         /// <summary>
-        /// Control editEstados.
+        /// Control addArea.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList editEstados;
-        
-        /// <summary>
-        /// Control btnAddUser.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAddUser;
+        protected global::System.Web.UI.WebControls.DropDownList addArea;
     }
 }

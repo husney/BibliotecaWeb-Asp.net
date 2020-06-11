@@ -11,21 +11,6 @@ namespace DataAccess
 	{
 		SqlConnection conexion = new SqlConnection("server=HUSNEY; database=BIBLIOTECA; integrated security=true;");
 
-		//private static DB BaseDatos = null;
-		//private DB() { }
-		//public static DB getInstance()
-		//{
-		//	if(BaseDatos == null)
-		//	{
-		//		BaseDatos = new DB();
-		//		return BaseDatos;
-		//	}
-		//	else
-		//	{
-		//		return BaseDatos;
-		//	}
-		//}
-
 		public SqlConnection getConexion()
 		{
 			try

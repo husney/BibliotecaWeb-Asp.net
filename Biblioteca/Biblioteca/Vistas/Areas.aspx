@@ -16,13 +16,13 @@
 							</div>
 
 							<div class="form-group">
-								<asp:Label runat="server" ID="msgAddLibro" Visible="false"></asp:Label>
+								<asp:Label runat="server" ID="msgAddLibro" Visible="false" ></asp:Label>
 								<asp:ValidationSummary runat="server" ID="sumaryErrors" DisplayMode="BulletList" CssClass="alert alert-danger" />
 							</div>
 
 							<div class="form-group">
 								<label for="addAreasCodigo" class="col-form-label">Código:</label>
-								<asp:TextBox runat="server" ID="addAreasCodigo" CssClass="form-control"></asp:TextBox>
+								<asp:TextBox runat="server" ID="addAreasCodigo" CssClass="form-control" MaxLength="10"></asp:TextBox>
 								<asp:RequiredFieldValidator runat="server" ControlToValidate="addAreasCodigo" Display="None" ErrorMessage="El Código es requerido"></asp:RequiredFieldValidator>
 							</div>
 

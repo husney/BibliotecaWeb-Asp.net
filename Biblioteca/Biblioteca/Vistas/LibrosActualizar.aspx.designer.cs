@@ -10,7 +10,7 @@
 namespace Biblioteca.Vistas {
     
     
-    public partial class Libros {
+    public partial class LibrosActualizar {
         
         /// <summary>
         /// Control addLibros.
@@ -40,58 +40,58 @@ namespace Biblioteca.Vistas {
         protected global::System.Web.UI.WebControls.ValidationSummary librosSummary;
         
         /// <summary>
-        /// Control addCodigo.
+        /// Control actCodigo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox addCodigo;
+        protected global::System.Web.UI.WebControls.TextBox actCodigo;
         
         /// <summary>
-        /// Control addNombre.
+        /// Control actNombre.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox addNombre;
+        protected global::System.Web.UI.WebControls.TextBox actNombre;
         
         /// <summary>
-        /// Control addNumPag.
+        /// Control actNumPag.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox addNumPag;
+        protected global::System.Web.UI.WebControls.TextBox actNumPag;
         
         /// <summary>
-        /// Control addAutor.
+        /// Control actAutor.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox addAutor;
+        protected global::System.Web.UI.WebControls.TextBox actAutor;
         
         /// <summary>
-        /// Control addEditorial.
+        /// Control actEditorial.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox addEditorial;
+        protected global::System.Web.UI.WebControls.TextBox actEditorial;
         
         /// <summary>
-        /// Control addArea.
+        /// Control actArea.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList addArea;
+        protected global::System.Web.UI.WebControls.DropDownList actArea;
         
         /// <summary>
         /// Control btnAddLibro.

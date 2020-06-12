@@ -44,6 +44,11 @@ namespace Entities
 			this.id = id;
 		}
 
+		public Area( String nombre)
+		{	
+			this.nombre = nombre;
+		}
+
 		public String Codigo { get{  return this.codigo; } set { this.codigo = value; } }
 		public String Nombre { get { return this.nombre; } set { this.nombre = value; } }
 		public String Tiempo { get { return this.tiempo; } set { this.tiempo = value; } }

@@ -55,7 +55,7 @@
 								<div class="indiceMenus d-flex flex-sm-row justify-content-sm-between flex-wrap justify-content-start ">
 									
 									<a href="UserLista.aspx" class="btn btn-info"> Usuarios</a>
-									<a href="Libros.aspx" class="btn btn-info">Libros</a>
+									<a href="LibrosLista.aspx" class="btn btn-info">Libros</a>
 									<a href="AreasLista.aspx" class="btn btn-info">Areas</a>
 									<a href="#" class="btn btn-info">Préstamos</a>
 									<a href="#" class="btn btn-info">Sanciones</a>

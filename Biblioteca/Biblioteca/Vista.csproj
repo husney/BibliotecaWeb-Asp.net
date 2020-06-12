@@ -168,6 +168,9 @@
     <Content Include="js\popper.min.js" />
     <Content Include="js\script.js" />
     <Content Include="Vistas\Libros.aspx" />
+    <Content Include="Vistas\LibrosActualizar.aspx" />
+    <Content Include="Vistas\LibrosEliminar.aspx" />
+    <Content Include="Vistas\LibrosLista.aspx" />
     <Content Include="Vistas\Login.aspx" />
     <Content Include="Vistas\Register.aspx" />
     <Content Include="Scripts\bootstrap.js" />
@@ -283,6 +286,27 @@
     </Compile>
     <Compile Include="Vistas\Libros.aspx.designer.cs">
       <DependentUpon>Libros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\LibrosActualizar.aspx.cs">
+      <DependentUpon>LibrosActualizar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\LibrosActualizar.aspx.designer.cs">
+      <DependentUpon>LibrosActualizar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\LibrosEliminar.aspx.cs">
+      <DependentUpon>LibrosEliminar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\LibrosEliminar.aspx.designer.cs">
+      <DependentUpon>LibrosEliminar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\LibrosLista.aspx.cs">
+      <DependentUpon>LibrosLista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\LibrosLista.aspx.designer.cs">
+      <DependentUpon>LibrosLista.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vistas\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>

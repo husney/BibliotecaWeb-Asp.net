@@ -25,6 +25,7 @@
 											<label for="addUserDocumento" class="form-label" runat="server">Documento (Cedula)</label>
 											<asp:TextBox runat="server" ID="addUserDocumento" CssClass="form-control"></asp:TextBox>
 											<asp:RequiredFieldValidator ControlToValidate="addUserDocumento" Display="None" ErrorMessage="El Documento es requerido" runat="server"></asp:RequiredFieldValidator>
+										<asp:RegularExpressionValidator runat="server" ControlToValidate="addUserDocumento" ValidationExpression="[0-9]{9,15}" ErrorMessage="La Cedula solo pueden ser numeros hasta de 9 a 15 digitos" Display="None"></asp:RegularExpressionValidator>
 								</div>
 
 								<div class="form-group">
@@ -43,6 +44,7 @@
 									<label for="addUserTelefono" class="form-label">Telefono:</label>
 									<asp:TextBox runat="server" ID="addUserTelefono" CssClass="form-control"></asp:TextBox>
 									<asp:RequiredFieldValidator runat="server" ControlToValidate="addUserTelefono" ErrorMessage="El Telefono es requerido" Display="None"></asp:RequiredFieldValidator>
+									<asp:RegularExpressionValidator runat="server" ControlToValidate="addUserTelefono" ValidationExpression="[0-9]{7,10}" ErrorMessage="El telefono solo pueden ser numeros hasta 10 digitos" Display="None"></asp:RegularExpressionValidator>
 								</div>
 
 								<div class="form-group">

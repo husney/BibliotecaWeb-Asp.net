@@ -17,7 +17,7 @@ namespace Bussiness
 		}
 
 
-		//usuDocumento usuNombre usuDireccion usuTelefono usuCorreo usuEstado usuId
+		
 		public bool RegistrarUsuario(Entities.Usuario user)
 		{
 			SqlConnection c = con.getConexion();
@@ -125,7 +125,6 @@ namespace Bussiness
 		{
 			SqlConnection c = null;
 			SqlCommand comando = null;
-			//SqlDataReader lector = null;
 
 			String query = "UPDATE usuarios SET usuDocumento = @documento, usuNombre = @nombre, usuDireccion = @direccion, usuTelefono = @telefono, usuCorreo = @correo, usuEstado = @estado WHERE usuDocumento = @documentoUP";
 
@@ -176,7 +175,7 @@ namespace Bussiness
 
 
 
-
+		
 
 
 

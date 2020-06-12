@@ -19,3 +19,14 @@ function editarArea(codigo, nombre) {
     document.getElementById('Main_actualizarCod').value = codigo;
     document.getElementById('Main_actualizarNomb').value = nombre;
 }
+
+
+
+function editarLibro(codigo, nombre, paginas, autor, editorial) {
+    document.getElementById('Main_actCodigo').value = codigo;
+    document.getElementById('Main_actNombre').value = nombre;
+    document.getElementById('Main_actNumPag').value = paginas;
+    document.getElementById('Main_actAutor').value = autor;
+    document.getElementById('Main_actEditorial').value = editorial;
+}
+

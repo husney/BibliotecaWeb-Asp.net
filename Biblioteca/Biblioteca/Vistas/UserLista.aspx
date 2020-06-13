@@ -18,7 +18,7 @@
 								
 								<thead>
 									<tr>
-										<!-- usuDocumento, usuNombre, usuDireccion, usuTelefono, usuCorreo, usuEstado, usuId  -->
+										
 										<th>Documento</th>
 										<th>Nombre</th>
 										<th>Dirección</th>

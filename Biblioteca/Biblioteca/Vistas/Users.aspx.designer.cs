@@ -22,15 +22,6 @@ namespace Biblioteca {
         protected global::System.Web.UI.HtmlControls.HtmlForm formAddUser;
         
         /// <summary>
-        /// Control userAgregar.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button userAgregar;
-        
-        /// <summary>
         /// Control mensajeAddUser.
         /// </summary>
         /// <remarks>
@@ -38,6 +29,15 @@ namespace Biblioteca {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label mensajeAddUser;
+        
+        /// <summary>
+        /// Control validadorAddUser.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ValidationSummary validadorAddUser;
         
         /// <summary>
         /// Control addUserDocumento.
@@ -83,15 +83,6 @@ namespace Biblioteca {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox addUserCorreo;
-        
-        /// <summary>
-        /// Control validadorAddUser.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ValidationSummary validadorAddUser;
         
         /// <summary>
         /// Control btnAddUser.

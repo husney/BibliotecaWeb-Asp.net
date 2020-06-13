@@ -14,8 +14,6 @@ namespace Biblioteca
 		protected void Page_Load(object sender, EventArgs e)
 		{
 			users = new Bussiness.ControlUsuarios();
-
-	
 		}
 		
 		public void agregarUser(object sender, EventArgs e)
@@ -24,10 +22,8 @@ namespace Biblioteca
 			{
 				registro();
 			}
-
 			
 		}
-
 		public void registro()
 		{
 
@@ -54,9 +50,6 @@ namespace Biblioteca
 				
 			}
 		}
-
-		
-
 		public void clear()
 		{
 			this.addUserDocumento.Text = null;

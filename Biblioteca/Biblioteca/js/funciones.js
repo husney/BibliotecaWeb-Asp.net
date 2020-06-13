@@ -39,3 +39,5 @@ function editarPrestamo(usuario, libro, fechaInicio, fechaFin, diasSancion, cant
     document.getElementById('Main_actDiasSancion').value = diasSancion;
     document.getElementById('Main_actCantidad').value = cantidad;
 }
+
+

@@ -10,14 +10,12 @@
 						<form id="formAddUser" runat="server" method="post" class="formUser text-white"><!--INICIO FORMULARIO ADD USERS-->
 
 									<div class="d-flex justify-content-end my-1 ">
-										<!--<asp:Button runat="server" ID="userAgregar" CssClass="btn btn-success mr-1" Text="Agregar" />-->
-										<%--<asp:Button runat="server" ID="userListar" CssClass="btn btn-success" Text="Listar" />--%>
 										<a href="UserLista.aspx" class="btn btn-success my-1 mx-1">Lista</a>
-										
 									</div>
 									
 								<div class="form-group d-flex justify-content-center">
 									<asp:Label runat="server" ID="mensajeAddUser" Text="" CssClass="text-center d-block" Visible="false" ></asp:Label>
+									<asp:ValidationSummary runat="server" ID="validadorAddUser" DisplayMode="BulletList"  CssClass="alert alert-danger"/>
 								</div>
 									
 														
@@ -54,10 +52,6 @@
 											<asp:RegularExpressionValidator runat="server" ControlToValidate="addUserCorreo" ValidationExpression="^[\w-]+@[\w-]+\.(com|net|edu|org)$" Display="None" ErrorMessage="El Correo no es valido"></asp:RegularExpressionValidator>
 								</div>
 
-								<div class="form-group">
-											
-											<asp:ValidationSummary runat="server" ID="validadorAddUser" DisplayMode="BulletList"  CssClass="alert alert-danger"/>
-								</div>
 
 								<div class="card-footer d-flex justify-content-center text-white">
 									<asp:Button runat="server" ID="btnAddUser" Text="Registrar" CssClass="btn btn-success btn-block"  OnClick="agregarUser"/>

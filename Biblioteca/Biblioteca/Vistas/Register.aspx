@@ -8,7 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link rel="stylesheet" href="../css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="../css/styles.css" />
-  
+  	<link rel="icon" type="image/gif" href="../img/libro.png"/>
 	<title>Registro</title>
 	</asp:Literal>
 </head>
@@ -42,13 +42,13 @@
             <label for="regUser" class="form-label h1 text-white">Usuario</label>
 			<asp:TextBox ID="regUser" runat="server" CssClass="form-control" ></asp:TextBox>
 			<asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" CssClass="text-info" ErrorMessage="Ingrese el Usuario" ControlToValidate="regUser"></asp:RequiredFieldValidator>
-          <%--  <input type="text" class="form-control in" id="user">--%>
+       
         </div>
         <div class="form-group">
             <label for="regPass" class="form-label h1 text-white">Contraseña</label>
 			<asp:TextBox ID="regPass" runat="server" CssClass="form-control" TextMode="Password" Wrap="False" ></asp:TextBox>
 			<asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" CssClass="text-info" ErrorMessage="Ingrese la Contraseña" ControlToValidate="regPass"></asp:RequiredFieldValidator>
-			<%--<input type="password" class="form-control in" id="pass">--%>
+		
         </div>
 
         <div class="form-check text-white d-flex justify-content-center flex-wrap ml-2">
@@ -61,13 +61,13 @@
 				<div class="d-block d-flex justify-content-center">
 				<asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" CssClass="text-info mb-1" ErrorMessage="Acepte Terminos" ControlToValidate="regPass"></asp:RequiredFieldValidator>
 			</div>
-			<%--<input type="checkbox" id="terminos" class="form-check-input ch" required>--%>
+		
 
         </div>
 
 		   <asp:Button ID="Button1" runat="server" CssClass="btn btn-primary btn-block" Text="Registrar" OnClick="Button1_Click" />
 		    <asp:Label ID="msg" runat="server" Text="" Visible="True" CssClass="h1 text-success text-center" OnDataBinding="Button1_Click"></asp:Label>
-        <%--<button class="btn btn-primary btn-block" type="submit">Ingresar</button>--%>
+    
        </div>
 		
     </form>

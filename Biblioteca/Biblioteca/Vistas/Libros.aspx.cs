@@ -21,7 +21,11 @@ namespace Biblioteca.Vistas
 				this.addArea.DataSource = libros.MostrarAreas();
 				this.addArea.DataBind();
 			}
-			a = libros.CodigoArea(this.addArea.SelectedItem.ToString());
+			else
+			{
+				a = libros.CodigoArea(this.addArea.SelectedItem.ToString());
+			}
+			
 			
 		}
 

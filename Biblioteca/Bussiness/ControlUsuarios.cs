@@ -17,7 +17,7 @@ namespace Bussiness
 		}
 
 
-		
+		//REGISTRO
 		public bool RegistrarUsuario(Entities.Usuario user)
 		{
 			SqlConnection c = con.getConexion();
@@ -47,7 +47,7 @@ namespace Bussiness
 		}
 
 
-
+		//LISTAR
 		public List<Entities.Usuario> Listar()
 		{
 			List<Entities.Usuario> usuarios = new List<Entities.Usuario>();
@@ -83,6 +83,7 @@ namespace Bussiness
 			}
 		}
 
+		//BUSCAR USUARIO
 		public List<Entities.Usuario> ActualizarUsuario(String doc)
 		{
 			List<Entities.Usuario> usuario = new List<Entities.Usuario>();
@@ -122,6 +123,7 @@ namespace Bussiness
 			}
 		}
 
+		//ACTUALIZAR USUARIO
 		public bool Actualización(Entities.Usuario user, String doc)
 		{
 			SqlConnection c = null;
@@ -154,6 +156,8 @@ namespace Bussiness
 			}
 		}
 
+
+		//ELIMINAR
 		public void eliminar(Entities.Usuario user)
 		{
 			SqlConnection c = con.getConexion();

@@ -20,7 +20,6 @@ namespace Biblioteca.Vistas
 		private int id;
 		private String Updt;
 
-		//usuDocumento, usuNombre, usuDireccion, usuTelefono, usuCorreo, usuEstado, usuId
 		protected void Page_Load(object sender, EventArgs e)
 		{
 			user = new Bussiness.ControlUsuarios();
@@ -38,8 +37,6 @@ namespace Biblioteca.Vistas
 				id = u.Id;
 			
 			}
-			
-
 		}
 
 		public void Actualizar (object sender, EventArgs e)

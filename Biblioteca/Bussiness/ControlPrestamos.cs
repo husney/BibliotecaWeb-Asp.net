@@ -183,5 +183,53 @@ namespace Bussiness
 				commandActualizar = null;
 			}
 		}
+
+		//LISTAR SANCIONADOS
+		public List<Entities.Sancionados> sancionados()
+		{
+			List<Entities.Sancionados> datos = new List<Entities.Sancionados>();
+			SqlConnection c = null;
+			SqlCommand commandSancionados = null;
+			SqlDataReader sanciones = null;
+
+			String sql = "SELECT usuarios.usuDocumento, usuarios.usuNombre, usuarios.usuDireccion, usuarios.usuTelefono, usuarios.usuCorreo, usuarios.usuEstado, usuarios.usuId, detallePrestamos.preCodigo, libros.libNombre, detallePrestamos.preDiasSancion,"
+					+"detallePrestamos.preCantidad FROM usuarios INNER JOIN detallePrestamos ON usuarios.usuDocumento = detallePrestamos.preUsuario INNER JOIN libros ON libros.libCodigo = detallePrestamos.preLibro WHERE usuarios.usuEstado = 'Sancionado' ";
+
+			try
+			{
+				c = con.getConexion();
+				commandSancionados = new SqlCommand(sql, c);
+				sanciones = commandSancionados.ExecuteReader();
+				while (sanciones.Read())
+				{
+					String documento = sanciones.GetValue(0).ToString();
+					String nombre = sanciones.GetValue(1).ToString();
+					String direc = sanciones.GetValue(2).ToString();
+					String telefono = sanciones.GetValue(3).ToString();
+					String correo = sanciones.GetValue(4).ToString();
+					String estado = sanciones.GetValue(5).ToString();
+					int id = Convert.ToInt32(sanciones.GetValue(6).ToString());
+					String codPre = sanciones.GetValue(7).ToString();
+					String libro = sanciones.GetValue(8).ToString();
+					int diasSancion = Convert.ToInt32(sanciones.GetValue(9).ToString());
+					int cantidad = Convert.ToInt32(sanciones.GetValue(10).ToString());
+
+					datos.Add(new Entities.Sancionados(documento, nombre, direc, telefono, correo, estado, id, codPre, libro, diasSancion, cantidad));
+
+				}
+				return datos;
+
+			}catch(Exception ex)
+			{
+				ex.ToString();
+				return null;
+			}
+			finally
+			{
+				c.Close();
+				sanciones.Close();
+				commandSancionados = null;
+			}
+		}
 	}
 }

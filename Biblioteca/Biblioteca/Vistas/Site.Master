@@ -8,6 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<link href="../css/bootstrap.min.css" rel="stylesheet" />
 	<link rel="stylesheet" href="../css/styles.css" />
+	<link rel="icon" type="image/gif" href="../img/libro.png"/>
     <title>Control Biblioteca</title>
    
 </head>
@@ -58,7 +59,7 @@
 									<a href="LibrosLista.aspx" class="btn btn-info">Libros</a>
 									<a href="AreasLista.aspx" class="btn btn-info">Areas</a>
 									<a href="PrestamosLista.aspx" class="btn btn-info">Préstamos</a>
-									<a href="#" class="btn btn-info">Sanciones</a>
+									<a href="Sanciones.aspx" class="btn btn-info">Sanciones</a>
 
 								</div>
 							</div>

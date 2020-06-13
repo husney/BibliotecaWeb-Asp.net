@@ -78,6 +78,7 @@ namespace Bussiness
 			}
 			catch (Exception ex)
 			{
+				ex.ToString();
 				return false;
 			}
 			finally

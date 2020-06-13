@@ -172,6 +172,10 @@
     <Content Include="Vistas\LibrosEliminar.aspx" />
     <Content Include="Vistas\LibrosLista.aspx" />
     <Content Include="Vistas\Login.aspx" />
+    <Content Include="Vistas\Prestamos.aspx" />
+    <Content Include="Vistas\PrestamosActualizar.aspx" />
+    <Content Include="Vistas\PrestamosEliminar.aspx" />
+    <Content Include="Vistas\PrestamosLista.aspx" />
     <Content Include="Vistas\Register.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -316,6 +320,34 @@
       <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistas\Prestamos.aspx.cs">
+      <DependentUpon>Prestamos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\Prestamos.aspx.designer.cs">
+      <DependentUpon>Prestamos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\PrestamosActualizar.aspx.cs">
+      <DependentUpon>PrestamosActualizar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\PrestamosActualizar.aspx.designer.cs">
+      <DependentUpon>PrestamosActualizar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\PrestamosEliminar.aspx.cs">
+      <DependentUpon>PrestamosEliminar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\PrestamosEliminar.aspx.designer.cs">
+      <DependentUpon>PrestamosEliminar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\PrestamosLista.aspx.cs">
+      <DependentUpon>PrestamosLista.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Vistas\PrestamosLista.aspx.designer.cs">
+      <DependentUpon>PrestamosLista.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Vistas\Register.aspx.cs">
       <DependentUpon>Register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

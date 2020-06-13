@@ -30,3 +30,12 @@ function editarLibro(codigo, nombre, paginas, autor, editorial) {
     document.getElementById('Main_actEditorial').value = editorial;
 }
 
+
+function editarPrestamo(usuario, libro, fechaInicio, fechaFin, diasSancion, cantidad) {
+    document.getElementById('Main_actUsuario').value = usuario;
+    document.getElementById('Main_actLibro').value = libro;
+    document.getElementById('Main_actFechaInicio').value = fechaInicio;
+    document.getElementById('Main_actFechaFin').value = fechaFin;
+    document.getElementById('Main_actDiasSancion').value = diasSancion;
+    document.getElementById('Main_actCantidad').value = cantidad;
+}

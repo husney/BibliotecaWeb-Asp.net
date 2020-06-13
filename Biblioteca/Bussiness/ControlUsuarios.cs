@@ -74,6 +74,7 @@ namespace Bussiness
 
 			}catch(Exception ex)
 			{
+				ex.ToString();
 				return null;
 			}
 			finally
@@ -164,7 +165,7 @@ namespace Bussiness
 				comand.ExecuteNonQuery();
 			} catch(Exception ex)
 			{
-
+				ex.ToString();
 			}
 			finally
 			{

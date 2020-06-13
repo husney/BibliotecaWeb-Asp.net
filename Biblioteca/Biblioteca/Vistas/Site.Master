@@ -57,7 +57,7 @@
 									<a href="UserLista.aspx" class="btn btn-info"> Usuarios</a>
 									<a href="LibrosLista.aspx" class="btn btn-info">Libros</a>
 									<a href="AreasLista.aspx" class="btn btn-info">Areas</a>
-									<a href="#" class="btn btn-info">Préstamos</a>
+									<a href="PrestamosLista.aspx" class="btn btn-info">Préstamos</a>
 									<a href="#" class="btn btn-info">Sanciones</a>
 
 								</div>

@@ -17,7 +17,7 @@
 
 							<thead>
 								<tr>
-									<!--LibCodigo libNombre libNumPag libAutor libEditorial libArea libId-->
+									
 									<th>Código</th>
 									<th>Nombre</th>
 									<th>Páginas</th>
